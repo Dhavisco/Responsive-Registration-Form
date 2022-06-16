@@ -104,6 +104,7 @@ body .container .form .link{
     
     body{
         text-align: center;
+        background: url('images/bg-intro-mobile.png'), hsl(0, 100%, 74%) ;
     }
 
     .grid-container {
