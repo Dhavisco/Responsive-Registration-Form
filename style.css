@@ -99,3 +99,93 @@ body .container .form .link{
     font-size: 12px;
 
 }
+
+@media only screen and (max-width: 375px) {
+    
+    body{
+        text-align: center;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 14px;
+       margin: 1%;
+       padding-bottom: 100px;
+      
+    }
+    .item1 {
+        grid-column-start: 1;
+        grid-row: inherit;
+        grid-column-end: 4;
+    }
+.item2 {
+    grid-column-start: 1;
+        grid-row: inherit;
+        grid-column-end: 4;
+}
+
+.item1 p{
+    line-height: 2rem;
+    font-size: 20px;
+    font-weight: 400;
+    width: 95%;
+    
+}
+
+.try {
+    background-color: hsl(248, 32%, 49%);
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 3px #5f5f5fde;
+    color: #fffefe;
+    font-size: 30px;
+    width: 90%;
+}
+
+  body .container .form {
+    background-color: #fff;
+    width: 375px;
+    margin-top: 1.5rem;
+    box-shadow: 0px 5px #7e7d7dde;
+    padding: 2.4rem 2.5rem;
+    border-radius: 6px;
+}
+
+body .container .form .box {
+    width: 365px;
+    max-width: 375px;
+    margin: 0%;
+    color: rgb(19, 19, 19);
+    font-weight: 600;
+    font-family: poppins;
+    height: 38px;
+    border-style: solid;
+    border-color: rgb(190, 190, 190);
+    border-radius: 4px;
+    padding-left: 20px;
+}
+  body .container .form .button {
+    width: 100%;
+    max-width: 100%;
+    margin: 0%;
+    height: 70px;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border-color: rgb(2 169 58 / 73%);
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0px 3px rgb(1 175 59 / 61%);
+}
+
+body .container .form .link {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 10;
+    color: rgb(48 48 48 / 48%);
+    padding: 10px 30px;
+}
+
+}
